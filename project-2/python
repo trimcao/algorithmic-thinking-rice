@@ -1,0 +1,23 @@
+"""
+Project 2 
+Algorithmic Thinking - Rice University @ Coursera
+Tri Minh Cao
+trimcao@gmail.com
+September 2015
+"""
+from collections import deque
+
+def bfs_visited(ugraph, start_node):
+    queue = deque()
+    visited = set()
+    queue.append(start_node)
+    while (len(queue) > 0):
+        pass
+
+test = deque()
+test.append(1)
+test.append(2)
+print test
+print test.pop()
+print test.pop()
+print len(test)
